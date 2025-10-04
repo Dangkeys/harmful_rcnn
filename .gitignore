@@ -1,0 +1,7 @@
+test/
+train/
+valid/
+vision/
+__pycache__/
+model_epoch_*
+model_epoch_*.pth

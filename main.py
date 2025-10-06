@@ -206,7 +206,7 @@ if TRAIN:
 if K_FOLD:
     args = Args()
     print(f"Starting {args.k_folds}-Fold Cross-Validation...")
-    kfold_results_dict = kfold_train(args=args, model=model, data_loader=train_dataset)
+    kfold_results_dict = kfold_train(args=args, model=model, dataset=train_dataset)
     plot_graph_kfold(kfold_results_dict)
 
 # # Usage example
